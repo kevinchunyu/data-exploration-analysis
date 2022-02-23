@@ -1,0 +1,23 @@
+---
+title: "Data Report"
+author: "Kevin Ko"
+date: "2/23/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(dplyr)
+
+source("analysis.R")
+```
+
+# Incarceration Data
+
+``` {r}
+
+head(data)
+
+```
